@@ -1,6 +1,6 @@
 ![wit.ai](https://s3.amazonaws.com/pliutau.com/wit.png)
 
-[![Build Status](https://travis-ci.org/wit-ai/wit-go.svg?branch=master)](https://travis-ci.org/wit-ai/wit-go) [![GoDoc](https://godoc.org/github.com/wit-ai/wit-go?status.svg)](https://godoc.org/github.com/wit-ai/wit-go) [![Go Report Card](https://goreportcard.com/badge/github.com/wit-ai/wit-go)](https://goreportcard.com/report/github.com/wit-ai/wit-go)
+[![GoDoc](https://godoc.org/github.com/wit-ai/wit-go?status.svg)](https://godoc.org/github.com/wit-ai/wit-go) [![Go Report Card](https://goreportcard.com/badge/github.com/wit-ai/wit-go)](https://goreportcard.com/report/github.com/wit-ai/wit-go)
 
 *This repository is community-maintained. We gladly accept pull requests. Please see the [Wit HTTP Reference](https://wit.ai/docs/http/latest) for all supported endpoints.*
 
@@ -9,7 +9,7 @@ Go client for [wit.ai](https://wit.ai/) HTTP API.
 ## Install
 
 ```
-go get -u github.com/wit-ai/wit-go
+go get -u github.com/wit-ai/wit-go/v2
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ import (
 	"os"
 	"fmt"
 
-	witai "github.com/wit-ai/wit-go"
+	witai "github.com/wit-ai/wit-go/v2"
 )
 
 func main() {
@@ -37,7 +37,7 @@ func main() {
 
 ## Testing
 
-Both Unit / Integration tests are executed by TravisCI.
+Both Unit / Integration tests are executed by Github Actions.
 
 ### Unit tests
 
